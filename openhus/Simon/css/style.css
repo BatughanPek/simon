@@ -17,6 +17,7 @@ body {
 
 }
 
+
 .btn {
   margin: 25px;
   display: inline-block;
@@ -27,7 +28,7 @@ body {
   box-shadow: 0 0 5px ;
 }
 
-.game-over {
+.game-over {    
   background-color: darkred;
   opacity: 0.8;
 }
