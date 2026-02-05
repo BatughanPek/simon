@@ -30,3 +30,21 @@ console.log('opgave 4b', foundSalem);
 // --- opgave 5 ---
 let numbersTimesThree = numbersArray.map(num => num * 3);
 console.log('opgave 5', numbersTimesThree);
+
+// --- opgave 6 ---
+let dogsString = dogsArray.join("");
+console.log('opgave 6', dogsString);
+
+// --- opgave 7 ---
+let mangoIndex = fruitsArray.indexOf("Mango");
+console.log('opgave 7a', mangoIndex);
+
+let blueberriesIndex = fruitsArray.indexOf("Blueberries");
+console.log('opgave 7b', blueberriesIndex);
+
+// --- opgave 8 ---
+let pollyIndex = dogsArray.indexOf("Polly");
+let deletePolly = 1;
+let removedPolly = dogsArray.splice(pollyIndex, deletePolly);
+
+console.log('opgave 8', dogsArray);
